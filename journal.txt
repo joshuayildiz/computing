@@ -1,3 +1,13 @@
+Wed Dec 10 08:44:35 +03 2025
+============================
+
+Now time for a password manager.
+I just use 1password normally from the repo but sadly void doesn't have it.
+I'm using 1password-cli which is a single statically linked binary.
+Just put it in bin.
+
+Kudos to the dev team @1password.
+
 Wed Dec 10 03:34:57 +03 2025
 ============================
 

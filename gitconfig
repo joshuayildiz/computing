@@ -3,3 +3,5 @@
 	email = joshuayildiz@icloud.com
 [core]
 	editor = E # acme
+[init]
+	defaultBranch = main

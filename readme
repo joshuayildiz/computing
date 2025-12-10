@@ -8,3 +8,4 @@ utils   : bash/plan9port
 desktop : xorg/dwm/dmenu/9term
 text    : acme/vim
 browser : firefox
+passmgr : 1password
