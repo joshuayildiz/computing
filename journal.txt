@@ -1,0 +1,121 @@
+Wed Dec 10 03:34:57 +03 2025
+============================
+
+And now for the eye candy. We need a nice font!
+I got berkeley mono lying around somewhere so I will just download
+and put it in $home/.local/share/fonts and reset the font cache.
+
+	fc-cache -r
+
+And reset fontsrv
+
+	kill $(pgrep fontsrv)
+	fontsrv &
+
+You can then ask fontsrv for a list of fonts.
+Lets check if it exists.
+
+	9p ls font | grep Berkeley
+
+If you don't see it you did something terrible.
+
+Next is actually telling the system to use that font.
+Every plan9port program imports env vars from its parent process.
+So setting font in xinitrc should do the trick for us:
+
+	export font=/mnt/font/BerkeleyMonoVariable-Regular/10a/font
+
+Also, set an alias for acme cuz for some reason acme doesn't work that way.
+
+	alias acme='acme -f /mnt/font/BerkeleyMonoVariable-Regular/10a/font'
+
+And now the font should work.
+
+You may be wondering where /mnt came from since we are asking 9p to ls font directory.
+As far as I can tell /mnt is symbolically where everything mounts unto.
+So every program reads from that directory.
+
+
+Wed Dec 10 00:56:57 +03 2025
+============================
+
+Now that everything works, time to set up acme.
+It needs two processes up. The font server and the plumber.
+So prepend to $home/.xinitrc so that it looks like this:
+
+	fontsrv &
+	plumber &
+	exec dwm
+
+I've put my xinitrc in the repo if you wanna take a look.
+
+
+Wed Dec 10 00:56:57 +03 2025
+============================
+
+I need a display manager. We have two contenders: X11 and Wayland.
+Both suck to be honest but wayland sucks less so I wanna go with that.
+But also dwm is X11-only so
+
+	sudo xbps-install xorg dwm dmenu st
+
+Then put
+
+	echo 'exec dwm' > $HOME/.xinitrc
+
+And start x11 with
+
+	startx
+
+Nice!
+
+
+Wed Dec 10 00:10:22 +03 2025
+============================
+
+For utils I went with plan9port.
+It is in the xbps repository so
+
+	sudo xbps-install plan9port
+
+This installs a lot of plan9 utils into /usr/lib/plan9.
+Also I want common "build essentials" so
+
+	sudo xbps-install base-devel git
+
+Nice!
+
+
+Tue Dec  9 23:41:21 +03 2025
+============================
+
+Welcome to my adventures in computing.
+I just installed void linux and wanted to share how it went.
+
+Basically I grabbed and ISO file from https://voidlinux.org and burned it using rufus.
+I chose musl libc because glibc codebase was horrible to look at.
+I wanted a system that was very simple and stable.
+
+After that the installation is pretty straightforward.
+My only issue was with wifi since at setup it didn't connect.
+
+You basically have to
+
+	wpa_passphrase $SSID $PASSWORD | sudo tee /etc/wpa_supplicant/wpa_supplicant.conf
+
+Then edit the file so only your new config is present.
+Then restart the wpa_supplicant service so it connects nicely.
+
+	sudo sv restart wpa_supplicant
+
+You can check the wifi connection with
+
+	wpa_cli status
+
+And test if it actually works with
+
+	ping -c 1 google.com
+
+You can then update the system
+
+	sudo xbps-install -Syu
