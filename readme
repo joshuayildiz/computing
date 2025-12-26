@@ -3,9 +3,11 @@ computing
 
 My adventures in computing.
 
-os      : voidlinux
-utils   : bash/plan9port
-desktop : xorg/dwm/dmenu/9term
-text    : acme/vim
-browser : firefox
+os      : macos
+shell   : zsh
+font    : berkeley-mono
+term    : ghostty
 passmgr : 1password
+text    : sublime text
+git     : sublime merge
+db      : postgres.app/tableplus

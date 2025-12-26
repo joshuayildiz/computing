@@ -1,3 +1,47 @@
+Wed Dec 10 12:00:53 +03 2025
+============================
+
+Finally got back my macbook from service.
+Time to set it up.
+
+I got 1password directly from the website and got macos cmdline
+tools from the kind prompt reminding me I don't have git installed.
+
+Let's get plan9port.
+
+	sudo mkdir /usr/local/plan9
+	sudo chown $USER /usr/local/plan9
+	cd /usr/local/plan9
+	git clone https://github.com/9fans/plan9port .
+
+For some reason macos doesn't allow installing stuff to /usr/lib.
+Let's also build everything while we are in.
+
+	./INSTALL
+
+This takes a while unfortunately. But anyway, let's add those to path.
+
+	echo 'export PLAN9=/usr/local/plan9' >> $HOME/.zshrc
+	echo 'export PATH=$PATH:$PLAN9/bin'  >> $HOME/.zshrc
+
+I have conveniently put my zshrc to this repository. Go take a look.
+Let's also copy some stuff to Applications folder for convenience.
+
+	cp -r $PLAN9/mac/9term.app /Applications
+	cp -r $PLAN9/mac/Plumb.app /Applications
+
+With that, time to set up the font.
+I got berkeley mono again.
+
+	echo 'export font=/mnt/font/BerkeleyMonoVariable-Regular/12a/font' >> $HOME/.zshrc
+
+And let's alias acme to use that too
+
+	echo 'alias acme="acme -f /mnt/font/BerkeleyMonoVariable-Regular/12a/font"' >> $HOME/.zshrc
+
+And with that our setup is done!
+
+
 Wed Dec 10 08:44:35 +03 2025
 ============================
 
