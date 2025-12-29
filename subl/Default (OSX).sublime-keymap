@@ -1,0 +1,4 @@
+[
+    { "keys": ["super+["], "command": "send" },
+    { "keys": ["super+]"], "command": "plumb" }
+]
