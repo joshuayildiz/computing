@@ -8,6 +8,6 @@ shell   : zsh
 font    : berkeley-mono
 term    : ghostty
 passmgr : 1password
-text    : sublime text
-git     : sublime merge
+text    : subl
+git     : smerge
 db      : postgres.app/tableplus
