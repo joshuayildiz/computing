@@ -19,8 +19,7 @@ Next to no config all. In fact here is the config I use:
 
 ```
 font-family = "Berkeley Mono Variable Regular Retina"
-theme = "Mariana"
-font-size = 16
+theme = "vesper"
 ```
 
 
@@ -34,37 +33,7 @@ Now that I mention it I should probably clean that up...
 Text Editor
 -----------
 
-Sublime Text because I did buy a license AND it is the most resource efficient
-with really good input latency. Also I like how minimal it is and without latency
-stuff.
-
-Here is the config
-
-```json
-{
-	// font
-	"font_face": "Berkeley Mono Variable Regular Retina",
-	"font_size": 16,
-
-	// formatting
-	"ensure_newline_at_eof_on_save": true,
-	"scroll_past_end": true,
-	"rulers": [80],
-
-	// misc
-	"auto_complete": false,
-	"index_files": false,
-	"create_window_at_startup": false,
-	"animation_enabled": false,
-	"sidebar_on_right": true,
-}
-```
-
-
-Git GUI
--------
-
-Sublime Merge because I really like the UI and did also pay for a license.
+Zed fulfills both text & git requirements.
 
 
 Database
