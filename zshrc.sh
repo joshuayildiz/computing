@@ -18,5 +18,8 @@ export PATH="$PATH:/Applications/CMake.app/Contents/bin"
 export PATH="$PATH:$HOME/code/upx/build/release"
 export PATH="$PATH:$HOME/.zig"
 
+# uv
+. "$HOME/.local/bin/env"
+
 # omz source
 source $ZSH/oh-my-zsh.sh
