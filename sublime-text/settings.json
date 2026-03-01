@@ -1,0 +1,10 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"color_scheme": "Breakers.sublime-color-scheme",
+	"font_face": "BerkeleyMonoVariable-Regular_SemiCondensed",
+	"font_size": 14,
+	"rulers": [88],
+	"theme": "Adaptive.sublime-theme",
+	"ensure_newline_at_eof_on_save": true,
+}
