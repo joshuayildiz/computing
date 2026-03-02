@@ -1,7 +1,5 @@
 [user]
 	name = joshuayildiz
 	email = joshuayildiz@icloud.com
-[core]
-	editor = subl -w
 [init]
 	defaultBranch = main
