@@ -1,7 +1,5 @@
-// Settings in here override those in "Default/Preferences.sublime-settings",
-// and are overridden in turn by syntax-specific settings.
 {
-	"color_scheme": "auto",
+	"color_scheme": "Monokai Pro.sublime-color-scheme",
 	"font_face": "Berkeley Mono Variable",
 	"default_font_size": 14,
 	"rulers": [88],
@@ -10,4 +8,13 @@
 	[
 		"Vintage",
 	],
+	"font_size": 17,
+	"index_files": true,
+	"theme": "Monokai Pro.sublime-theme",
+	"monokai_pro_file_based_icons": true,
+	"monokai_pro_sidebar_font_size": 14,
+	"monokai_pro_label_font_size": 14,
+	"monokai_pro_small_scrollbar": true,
+	"monokai_pro_ui_font_face": "Berkeley Mono Variable",
+	"monokai_pro_style_title_bar": true,
 }
