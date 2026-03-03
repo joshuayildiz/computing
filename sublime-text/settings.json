@@ -1,0 +1,13 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"color_scheme": "auto",
+	"font_face": "Berkeley Mono Variable",
+	"default_font_size": 14,
+	"rulers": [88],
+	"ensure_newline_at_eof_on_save": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}
