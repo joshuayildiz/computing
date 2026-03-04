@@ -1,6 +1,8 @@
 brew "fd"
 brew "go"
+brew "llvm"
 brew "pure"
+brew "tree"
 cask "1password"
 cask "claude-code"
 cask "ghostty"
