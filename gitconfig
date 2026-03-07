@@ -1,5 +1,8 @@
+[core]
+	editor = E
+	pager = nobs
+[init]
+	defaultBranch = main
 [user]
 	name = joshuayildiz
 	email = joshuayildiz@icloud.com
-[init]
-	defaultBranch = main
