@@ -1,3 +1,4 @@
+brew "ffmpeg"
 brew "go"
 cask "1password"
 cask "claude-code"
