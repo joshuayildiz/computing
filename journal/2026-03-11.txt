@@ -1,0 +1,48 @@
+Today I realized actually having everything is breaking me up
+mentally.  The phone, the friends, the work and most importantly
+the stuff I enjoy are making my life miserable.
+
+I need to find a way to escape and the only path forward (without
+causing me to die out of boredom) seems to be learning constantly.
+My brain is capable of handling all of this bullshit information.
+So then why do I have to be content with the less than ideal quality
+of information I keep consuming all day.
+
+I should be staying away from games, music, films. Unless they have
+artistic mastery in display or it is for social purposes I will
+stop consuming mindlessly.
+
+Now this will upset many of my friends whom watch anime in solidarity
+to talk en mass at get-togethers. But I am perfectly fine learning
+Spanish or French and teaching my friends too. This is my hell now
+that I have chosen it.
+
+I'll view software as this toy to tinker with. After getting my
+first job it seemed like software would stay as this thing I do for
+work and there wasn't much enjoying in it. From now on I'll build
+whatever I want however I want it.
+
+So for now, plan9port as the base system, I'll be working with HTML
+and PDF files mostly. Learning will be this charitable habit I will
+occupy myself with. Maybe I'll pick up the piano sometime who knows.
+The possiblities are, admittedly, abysmally small. I don't have
+much room to grow anymore now that I am 23.
+
+Do not let time be your master. Slaving away to control it is
+basically admitting defeat without really acknowledging you do so
+you keep trying to make it obey but in the end time wins. You can't
+make something that inherently isn't yours to love and respect you.
+It'll keep going, and that's fine.
+
+---
+
+I should get something like Anki working on my laptop now.  Also
+some documents for French would be nice. Learning shouldn't be that
+hard. Maybe a calendar to kinda decide what I'll do that week?
+Stuff I enjoy is most certainly now shitten content on the internet.
+Strange.. I can't remember the name of that search engine for the
+small web. I wonder if I should get my own small web page up.  Maybe
+using elm would be too much? Am I patient enough to write literally
+pure HTML by hand for each post? Is posting text files good enough
+if I can just get the font right? Can I use Berkeley Mono for my
+personal website? I paid for it tho. I guess not.
