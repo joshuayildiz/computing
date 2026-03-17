@@ -6,5 +6,6 @@ fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
 
-# My scripts
+# Path
 export PATH="$PATH:$HOME/.bin"
+export PATH="$PATH:$HOME/go/bin"
