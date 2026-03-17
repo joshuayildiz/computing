@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+cat "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Documents/pass.csv" |
+grep -i "$1" |
+align ", "

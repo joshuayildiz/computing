@@ -5,3 +5,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
+
+# My scripts
+export PATH="$PATH:$HOME/.bin"
