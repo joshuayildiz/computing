@@ -7,4 +7,5 @@ ln -sf $(pwd)/pass $HOME/.bin/pass
 
 # sublime plugins
 subldir="$HOME/Library/Application Support/Sublime Text/Packages/User"
+cp cfmt.py  "$subldir/cfmt.py"
 cp gofmt.py "$subldir/gofmt.py"
