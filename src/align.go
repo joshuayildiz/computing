@@ -22,10 +22,16 @@ func main() {
 	// Read every line from stdin
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
-		parts := strings.Split(scanner.Text(), separator)
+		line := strings.TrimSpace(scanner.Text())
+		if len(line) == 0 {
+			continue
+		}
+
+		parts := strings.Split(line, separator)
 		for i, part := range parts {
 			parts[i] = strings.TrimSpace(part)
 		}
+
 		lines = append(lines, parts)
 	}
 
@@ -58,7 +64,7 @@ func main() {
 
 			if i != len(line)-1 {
 				left := lengths[i] - wrote
-				fmt.Printf("%s%s", separator, strings.Repeat(" ", left))
+				fmt.Printf("%s %s ", strings.Repeat(" ", left), separator)
 			}
 		}
 		fmt.Printf("\n")

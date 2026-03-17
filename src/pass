@@ -1,5 +1,5 @@
 #!/bin/zsh
 
-cat "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Documents/pass.csv" |
+rage -d "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Documents/pass.rage" |
 grep -i "$1" |
-align ", "
+align ,
