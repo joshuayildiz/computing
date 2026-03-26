@@ -1,6 +1,11 @@
-font=/mnt/font/BerkeleyMonoVariable-Regular_Retina-SemiCondensed/14a/font
+# Set the font for 9term and acme.
+font=/mnt/font/InputSans-Regular/14a/font
 
-# binaries
+# `nobs` strips control-characters from text stream.
+# (e.g. `git diff` doesn't paginate)
+PAGER=nobs
+
+# My binaries
 PATH=$PATH:$home/.bin
 
 # brew

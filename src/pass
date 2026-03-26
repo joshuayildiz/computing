@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# My password manager.
+# I keep a password-encrypted file on iCloud, boo me.
+
 rage -d "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Documents/pass.rage" |
 grep -i "$1" |
 align ,
