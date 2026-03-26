@@ -1,11 +1,11 @@
-#!/bin/sh
+#!/Users/joshua/code/plan9port/bin/rc
+
+# profile
+mkdir -p $home/lib
+ln -sf `{pwd}/profile $home/lib/profile
 
 # binaries
-chmod +x $HOME/.bin
-go build -o align align.go && mv align $HOME/.bin
-ln -sf $(pwd)/pass $HOME/.bin/pass
-
-# sublime plugins
-subldir="$HOME/Library/Application Support/Sublime Text/Packages/User"
-cp cfmt.py  "$subldir/cfmt.py"
-cp gofmt.py "$subldir/gofmt.py"
+chmod +x $home/.bin
+go build -o align align.go && mv align $home/.bin
+ln -sf `{pwd}/pass $home/.bin/pass
+ln -sf `{pwd}/a $home/.bin/a

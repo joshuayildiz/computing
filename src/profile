@@ -1,0 +1,13 @@
+font=/mnt/font/BerkeleyMonoVariable-Regular_Retina-SemiCondensed/14a/font
+
+# binaries
+PATH=$PATH:$home/.bin
+
+# brew
+HOMEBREW_PREFIX="/opt/homebrew"
+HOMEBREW_CELLAR="/opt/homebrew/Cellar"
+HOMEBREW_REPOSITORY="/opt/homebrew"
+PATH=$PATH:/opt/homebrew/bin
+
+# go
+PATH=$PATH:$home/go/bin

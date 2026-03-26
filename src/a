@@ -1,0 +1,2 @@
+#!/Users/joshua/code/plan9port/bin/rc
+acme -a -f $font &
