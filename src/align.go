@@ -1,3 +1,9 @@
+//
+// This script aligns cells of a text table by a separator character.
+// I am almost certain that this can be done by combining other
+// unix tools, I just have not found it yet.
+//
+
 package main
 
 import (
