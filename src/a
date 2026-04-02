@@ -1,8 +1,0 @@
-#!/Users/joshua/code/plan9port/bin/rc
-
-# Acme helper scripts.
-# -a: Automatic indentation. On `Enter`, copies the indentation of the line above.
-# -f: Default font for Acme. This is usually proportional.
-# -F: Alternate font for Acme. This is usually fixed-width.
-
-acme -a -f $font -F $font $* &

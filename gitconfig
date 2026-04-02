@@ -1,6 +1,5 @@
 [core]
-	# `E` opens files in acme, waits till first write
-	editor = E
+	editor = nvim
 [init]
 	defaultBranch = main
 [user]
