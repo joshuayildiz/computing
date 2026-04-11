@@ -1,4 +1,5 @@
 #!/bin/zsh
+set -e
 
 # home directory
 ln -sf $(pwd)/zshrc          ~/.zshrc
@@ -12,4 +13,3 @@ ln -sf $(pwd)/pass ~/.bin/pass
 # config directory
 mkdir -p ~/.config
 [ ! -e ~/.config/ghostty ] && ln -sf $(pwd)/ghostty ~/.config/ghostty
-[ ! -e ~/.config/nvim    ] && ln -sf $(pwd)/nvim    ~/.config/nvim

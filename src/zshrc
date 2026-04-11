@@ -1,6 +1,3 @@
-# Enable vim
-bindkey -v
-
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -12,6 +9,7 @@ prompt pure
 # Path
 export PATH=$PATH:$HOME/.bin
 export PATH=$PATH:$HOME/go/bin
+export PATH=$PATH:/opt/homebrew/opt/node@24/bin
 
 # Aliases
 alias l="ls -1"
