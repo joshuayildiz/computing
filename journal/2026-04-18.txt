@@ -1,0 +1,18 @@
+I use these languages in this order.
+
+- rc/sh for scripting.
+- Haskell/Rust for correctness.
+- C/Zig for low-level.
+- Futhark for GPU.
+- HTML/CSS/JS, Elm, Swift, Kotlin for UI.
+- Go/Python for everything else.
+
+Besides, I think of setting myself some goals
+Even if the economy is bad, it doesn't mean that I have to
+succumb my own time to it.
+
+I can build stuff!
+
+And most of the stuff I build will be me.
+I'll build a me place on the internet.
+It'll be charming, crazy even.

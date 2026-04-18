@@ -1,15 +1,11 @@
-#!/bin/zsh
-set -e
+#!/Users/joshua/code/plan9port/bin/rc
 
-# home directory
-ln -sf $(pwd)/zshrc          ~/.zshrc
-ln -sf $(pwd)/aerospace.toml ~/.aerospace.toml
+# rc profile
+mkdir -p $home/lib
+ln -sf  `{pwd}/profile $home/lib/profile
 
 # bin directory
-chmod +x ~/.bin
-go build -o align align.go && mv align ~/.bin
-ln -sf $(pwd)/pass ~/.bin/pass
-
-# config directory
-mkdir -p ~/.config
-[ ! -e ~/.config/ghostty ] && ln -sf $(pwd)/ghostty ~/.config/ghostty
+chmod +x $home/.bin
+go build -o align align.go && mv align $home/.bin
+ln -sf `{pwd}/pass $home/.bin/pass
+ln -sf `{pwd}/a $home/.bin/a
