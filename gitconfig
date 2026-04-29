@@ -1,5 +1,6 @@
 [core]
-	editor = vi
+	editor = E
+	pager = nobs
 [init]
 	defaultBranch = main
 [user]

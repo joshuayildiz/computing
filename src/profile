@@ -9,5 +9,6 @@ HOMEBREW_REPOSITORY="/opt/homebrew";
 
 # Path.
 path=($path /opt/homebrew/bin)
+path=($path /opt/homebrew/opt/node@24/bin)
 path=($path $home/go/bin)
 path=($path $home/.bin)
