@@ -6,9 +6,7 @@ although feel free to ask questions through issues.
 
 I use these languages in this order.
 
-- rc for scripting.
-- Rust for correctness.
+- sh for scripting.
 - C for low-level.
-- Futhark for GPU.
-- HTML/CSS/JS, Elm, Swift, Kotlin for UI.
+- HTML/CSS/JS, Swift, Kotlin for UI.
 - Go/Python for everything else.
