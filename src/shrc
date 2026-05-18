@@ -1,6 +1,19 @@
 # My scripts
 export PATH="$PATH:$HOME/.bin"
 
-# Sublime suite
-export PATH="$PATH:/Applications/Sublime Text.app/Contents/SharedSupport/bin"
-export PATH="$PATH:/Applications/Sublime Merge.app/Contents/SharedSupport/bin"
+# Claude code
+export PATH="$HOME/.local/bin:$PATH"
+
+# Rust
+source "$HOME/.cargo/env"
+
+# FZF
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+# Herd injected PHP 8.4 configuration.
+export HERD_PHP_84_INI_SCAN_DIR="/Users/joshua/Library/Application Support/Herd/config/php/84/"
+
+
+# Herd injected PHP binary.
+export PATH="/Users/joshua/Library/Application Support/Herd/bin/":$PATH
