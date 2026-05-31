@@ -8,3 +8,7 @@ ln -sf $(pwd)/shrc $HOME/.zshrc
 mkdir -p $HOME/.bin
 go build -o align align.go && mv align $HOME/.bin
 ln -sf $(pwd)/pass $HOME/.bin/pass
+
+# zed
+mkdir -p $HOME/.config/zed
+ln -sf $(pwd)/zed.json $HOME/.config/zed/settings.json
