@@ -1,5 +1,5 @@
 [core]
-	editor = zed -w
+	editor = E
 [init]
 	defaultBranch = main
 [user]

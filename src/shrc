@@ -1,22 +1,13 @@
-# Prompt
-export PS1='%% '
+# Plan 9
+PLAN9=$home/Projects/plan9port
 
-# My scripts
-export PATH="$PATH:$HOME/.bin"
+# Font
+font=/mnt/font/InputSans-Regular/14a/font
 
-# Claude code
-export PATH="$HOME/.local/bin:$PATH"
-
-# Rust
-source "$HOME/.cargo/env"
-
-# FZF
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-
-# Herd injected PHP 8.4 configuration.
-export HERD_PHP_84_INI_SCAN_DIR="/Users/joshua/Library/Application Support/Herd/config/php/84/"
-
-
-# Herd injected PHP binary.
-export PATH="/Users/joshua/Library/Application Support/Herd/bin/":$PATH
+# Path
+path=($PLAN9/bin $path) # Plan 9
+path=($path $home/.bin) # My scripts
+path=($path /usr/local/go/bin)# Go
+path=($path $home/go/bin)
+path=($path $home/.cargo/bin) # Rust
+path=($path $home/Library/Python/3.9/bin) # Python

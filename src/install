@@ -1,14 +1,10 @@
-#!/bin/sh
-set -a
+#!/Users/joshua/Projects/plan9port/bin/rc
 
 # shell profile
-ln -sf $(pwd)/shrc $HOME/.zshrc
+mkdir -p $home/lib
+ln -sf `{pwd}/shrc $home/lib/profile
 
 # bin directory
-mkdir -p $HOME/.bin
-go build -o align align.go && mv align $HOME/.bin
-ln -sf $(pwd)/pass $HOME/.bin/pass
-
-# zed
-mkdir -p $HOME/.config/zed
-ln -sf $(pwd)/zed.json $HOME/.config/zed/settings.json
+mkdir -p $home/.bin
+go build -o align align.go && mv align $home/.bin
+ln -sf `{pwd}/pass $home/.bin/pass
