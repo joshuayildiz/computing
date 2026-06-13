@@ -1,4 +1,4 @@
-#!/Users/joshua/Projects/plan9port/bin/rc
+#!/Users/joshua/code/plan9port/bin/rc
 
 # shell profile
 mkdir -p $home/lib

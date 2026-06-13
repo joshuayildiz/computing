@@ -1,8 +1,5 @@
 # Plan 9
-PLAN9=$home/Projects/plan9port
-
-# Font
-font=/mnt/font/InputSans-Regular/14a/font
+PLAN9=$home/code/plan9port
 
 # Path
 path=($PLAN9/bin $path) # Plan 9
@@ -11,3 +8,4 @@ path=($path /usr/local/go/bin)# Go
 path=($path $home/go/bin)
 path=($path $home/.cargo/bin) # Rust
 path=($path $home/Library/Python/3.9/bin) # Python
+path=($path /usr/local/bin) # Node.js
