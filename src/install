@@ -1,10 +1,9 @@
-#!/Users/joshua/code/plan9port/bin/rc
+#!/bin/zsh
 
 # shell profile
-mkdir -p $home/lib
-ln -sf `{pwd}/shrc $home/lib/profile
+ln -sf $(pwd)/shrc ~/.zshrc
 
 # bin directory
-mkdir -p $home/.bin
-go build -o align align.go && mv align $home/.bin
-ln -sf `{pwd}/pass $home/.bin/pass
+mkdir -p ~/.bin
+go build -o align align.go && mv align ~/.bin
+ln -sf $(pwd)/pass ~/.bin/pass
