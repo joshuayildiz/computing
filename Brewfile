@@ -4,7 +4,7 @@ brew "go"
 brew "node"
 # Rust toolchain installer
 brew "rustup"
-# Text editor for code, markup and prose
-cask "sublime-text"
+# Multiplayer code editor
+cask "zed"
 go "github.com/livekit/livekit-cli/v2/cmd/lk"
 cargo "rage"

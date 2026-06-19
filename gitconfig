@@ -1,5 +1,5 @@
 [core]
-	editor = subl -w
+	editor = zed -w
 [init]
 	defaultBranch = main
 [user]
